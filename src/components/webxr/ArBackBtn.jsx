@@ -2,13 +2,7 @@ import React from 'react'
 import { WishlistIcon } from './assets'
 import "./style/ArModelViewer.css"
 
-interface arBackBtnProps{
-    name: string;
-    company: string;
-    price: string;
-}
-
-const ArBackBtn = ({name,company,price}: arBackBtnProps) => {
+const ArBackBtn = ({name,company,price}) => {
     return (
         <button slot="exit-webxr-ar-button" className="mt-[5vh] ml-[2vh]" >
             <div className='w-[40px] h-[40px] flex justify-center items-center border-[3px] border-white rounded-full'>
