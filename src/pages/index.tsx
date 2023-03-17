@@ -51,7 +51,7 @@ const landing = () => {
       <div className="flex flex-row m-[7vw] space-x-[7vw]"></div>
       <div className='mt-[-10vh]'>
         <div className="bg-[#FFFF6D] h-1 w-full "></div>
-        <div className="text-center text-[7vw] text-[#FFFF6D]  border-[#FFFF6D]  md:justify-evenly">
+        <div className="text-center text-[7vw] font-bold text-[#FFFF6D]  border-[#FFFF6D]  md:justify-evenly">
           METAVERSE SHOPPING
         </div>
         <div className="bg-[#FFFF6D] h-1 w-full"></div>
