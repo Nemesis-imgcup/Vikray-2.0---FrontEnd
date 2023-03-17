@@ -11,7 +11,7 @@ const Button: FC<{
       <button
           disabled={disabled}
           onClick={onClick}
-          className={`rounded-2xl font-medium px-6 py-2 ${
+          className={`rounded-2xl font-medium px-[2vw] py-[1vh] ${
               filled ? 'bg-[#F8F872]' : 'text-black'
           } text-black ${className}`}
       >
