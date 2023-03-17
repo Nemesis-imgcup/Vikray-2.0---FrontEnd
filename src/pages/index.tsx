@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
    <div className='text-9xl bg-slate-600 font-black'>
-    fuck you aniket
+    Atanau tor Bou Amar
    </div>
   )
 }

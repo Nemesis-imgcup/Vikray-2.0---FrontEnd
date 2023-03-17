@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Image from 'next/image'
 import Button from '../common/button';
 import Navlogo from '../navbar/nav_assets/vikray-logo.svg'
 
@@ -11,7 +12,7 @@ const Navbar  = () => {
           <div>
             <div className="flex items-center justify-between px-8 py-3 md:py-5 md:block">
               <div>
-                <h2 className="text-2xl font-bold text-[#FFFF6D]">VIKRAY</h2>
+                <Image src={Navlogo} alt="navlogo" />
               </div>
               <div className="md:hidden">
                 <button

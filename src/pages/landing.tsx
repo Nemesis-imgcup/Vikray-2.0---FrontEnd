@@ -2,7 +2,7 @@ import Button from '@/components/common/button'
 import Navbar from '@/components/navbar/navbar'
 import React from 'react'
 import Image from "next/image";
-import Heroimage from '../pages/landing/landingAssets/heroimage.png'
+import {HeroImage} from '../components/landingAssets/index'
 
 
 
@@ -39,7 +39,7 @@ const landing = () => {
        
         <div className="flex flex-col">
           <div className="w-[39vw]">
-            <Image src={Heroimage} alt="Picture of the author" />
+            <Image src={HeroImage} alt="Picture of the author" />
           </div>
           <div className="mt-10 text-7xl ml-9 text-[#FFFF6D]">
             web3 * Fashion * AR
