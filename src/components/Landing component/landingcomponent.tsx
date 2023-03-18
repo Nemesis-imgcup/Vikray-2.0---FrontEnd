@@ -8,7 +8,7 @@ import {ComponentImage, Feat1, Feat2, Feat3, Heroimage2} from '../../assets/land
 const landingcomponent = () => {
   return (
     <>
-      <div className="flex flex-row m-[7vw]  space-x-[7vw]">
+      <div className="md:flex flex-row m-[7vw] md:space-x-[7vw] md:space-y-4">
         <div className="text-xl font-medium">
           Experience the future of fashion today! Shop now and join the
           revolution of sustainable fashion. Visit our website now to explore
@@ -16,14 +16,14 @@ const landingcomponent = () => {
           to be a part of the sustainable fashion movement Join our mission to
           create a better future for fashion, where sustainability meets style.
         </div>
-        <div className="w-[250vw]">
+        <div className="lg:w-[250vw] ">
           <Image src={ComponentImage} alt="Picture of component" />
         </div>
       </div>
-      <div className="flex flex-row space-x-7 m-5">
+      <div className="md:flex flex-row md:space-x-7 m-5">
         <div className="flex">
           <Image
-            className="w-[15vw] h-[25vh]"
+            className="flex w-[15vw] h-[25vh]"
             src={Feat1}
             alt="Picture of feature"
           />
@@ -52,7 +52,7 @@ const landingcomponent = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row space-x-[7vw] m-[7vw]">
+      <div className="md:flex flex-row md:space-x-[7vw] m-[7vw]">
         <div className="mt-[16vh]">
           <div className="flex space-x-2">
             <div className="bg-[#FFFF6D] w-3 h-14"></div>
